@@ -1,5 +1,5 @@
 #set page(width: 84.1cm, height: 118.9cm, margin: 0cm)
-#set text(lang: "en", font: ("Noto Naskh Arabic", "Amiri", "DejaVu Sans", "Liberation Sans"), fill: cmyk(0%,0%,0%,95%))
+#set text(lang: "en", font: ("DejaVu Sans", "Liberation Sans", "Arial"), fill: cmyk(0%,0%,0%,95%))
 
 #let navy = cmyk(100%, 78%, 32%, 36%)
 #let steel = cmyk(46%, 18%, 14%, 8%)
@@ -41,16 +41,16 @@
 #place(top + right, dx: 5cm, dy: 29cm, rect(width: 34.8cm, height: 6cm, fill: cmyk(5%,2%,0%,0%), stroke: (paint: line, thickness: 0.6pt), radius: 4pt))
 #place(top + right, dx: 6cm, dy: 30.6cm, align(right, text(size: 18pt, weight: "bold", fill: navy)[الملخص]))
 
-#place(top + left, dx: 5cm, dy: 32cm, box(width: 34.8cm)[#text(size: 13.4pt, leading: 1.22em)[Traditional drug discovery is heavily constrained by high costs, long durations, and high attrition rates. This thesis evaluates the transformative integration of Artificial Intelligence (AI) and Machine Learning (ML) across the pharmaceutical pipeline. By optimizing target identification, virtual screening, de novo molecular design, and ADMET toxicity profiling, AI significantly compresses the iterative design-make-test cycles, dramatically lowering early-stage bottlenecks and predicting safety liabilities before costly laboratory synthesis.]])
-#place(top + right, dx: 5cm, dy: 32cm, align(right, box(width: 34.8cm)[#text(size: 14pt, leading: 1.3em)[تواجه عملية اكتشاف الأدوية التقليدية قيوداً شديدة متمثلة في التكاليف الباهظة، الفترات الزمنية الممتدة، ومعدلات الفشل العالية. يستعرض هذا البحث الدور المحوري للذكاء الاصطناعي والتعلم الآلي في التغلب على هذه العقبات عبر تسريع وتيرة تحديد الأهداف البيولوجية والتحقق من صحتها، الفرز الافتراضي المركب، والتصميم التوليدي للمركبات من الصفر (De Novo Design)، بالإضافة إلى التنبؤ الدقيق بالسمية وحركية الدواء (ADMET) قبل البدء بالتصنيع المختبري، مما يقلل بشكل جذري من الهدر الاقتصادي والزمني.]]))
+#place(top + left, dx: 5cm, dy: 32cm, box(width: 34.8cm)[#text(size: 13.4pt)[Traditional drug discovery is heavily constrained by high costs, long durations, and high attrition rates. This thesis evaluates the transformative integration of Artificial Intelligence (AI) and Machine Learning (ML) across the pharmaceutical pipeline. By optimizing target identification, virtual screening, de novo molecular design, and ADMET toxicity profiling, AI significantly compresses the iterative design-make-test cycles, dramatically lowering early-stage bottlenecks and predicting safety liabilities before costly laboratory synthesis.]])
+#place(top + right, dx: 5cm, dy: 32cm, align(right, box(width: 34.8cm)[#text(size: 14pt)[تواجه عملية اكتشاف الأدوية التقليدية قيوداً شديدة متمثلة في التكاليف الباهظة، الفترات الزمنية الممتدة، ومعدلات الفشل العالية. يستعرض هذا البحث الدور المحوري للذكاء الاصطناعي والتعلم الآلي في التغلب على هذه العقبات عبر تسريع وتيرة تحديد الأهداف البيولوجية والتحقق من صحتها، الفرز الافتراضي المركب، والتصميم التوليدي للمركبات من الصفر (De Novo Design)، بالإضافة إلى التنبؤ الدقيق بالسمية وحركية الدواء (ADMET) قبل البدء بالتصنيع المختبري، مما يقلل بشكل جذري من الهدر الاقتصادي والزمني.]]))
 
 #place(top + left, dx: 5cm, dy: 57cm, text(size: 18pt, weight: "bold", fill: navy)[CONCLUSION & RECOMMENDATIONS])
 #place(top + right, dx: 5cm, dy: 57cm, align(right, text(size: 18pt, weight: "bold", fill: navy)[الخلاصة والتوصيات]))
 
-#place(top + left, dx: 5cm, dy: 60cm, box(width: 34.8cm)[#text(size: 13.8pt, leading: 1.3em)[• AI functions most effectively as a collaborative, augmentative partner that empowers and amplifies human scientific expertise rather than replacing it.
+#place(top + left, dx: 5cm, dy: 60cm, box(width: 34.8cm)[#text(size: 13.8pt)[• AI functions most effectively as a collaborative, augmentative partner that empowers and amplifies human scientific expertise rather than replacing it.
 • Deep learning frameworks and generative models drastically accelerate chemical space exploration and molecule optimization.
 • AI-generated hypotheses fundamentally rely on rigorous prospective experimental validation and curated data to guarantee clinical success.]])
-#place(top + right, dx: 5cm, dy: 60cm, align(right, box(width: 34.8cm)[#text(size: 14pt, leading: 1.36em)[• يعمل الذكاء الاصطناعي كأداة تعاونية وتكاملية فائقة الذكاء لتعزيز الإبداع البشري وليس بديلاً عن خبرة العلماء.
+#place(top + right, dx: 5cm, dy: 60cm, align(right, box(width: 34.8cm)[#text(size: 14pt)[• يعمل الذكاء الاصطناعي كأداة تعاونية وتكاملية فائقة الذكاء لتعزيز الإبداع البشري وليس بديلاً عن خبرة العلماء.
 • النماذج التوليدية المتطورة وشبكات القرار تختصر زمن تصميم الجزيئات الكيميائية بنسب غير مسبوقة.
 • يتطلب الاعتماد النهائي على فرضيات الذكاء الاصطناعي تحققاً مختبرياً صارماً (Experimental Validation) وبيانات عالية الجودة لضمان الأمان السريري.]]))
 
@@ -61,11 +61,11 @@
 
 #place(top + left, dx: 5cm, dy: 93cm, text(size: 18pt, weight: "bold", fill: navy)[Participating Students:])
 #place(top + right, dx: 5cm, dy: 93cm, align(right, text(size: 18pt, weight: "bold", fill: navy)[أسماء الطلبة المشاركين]))
-#place(top + left, dx: 5cm, dy: 97cm, text(size: 15pt, leading: 1.45em)[Abdullah Mohammed Fayyad
+#place(top + left, dx: 5cm, dy: 97cm, text(size: 15pt)[Abdullah Mohammed Fayyad
 Abdulmoumen Issam Mahmoud
 Ahmed Qais Sabri
 Ali Omar Hassan])
-#place(top + right, dx: 5cm, dy: 97cm, align(right, text(size: 16pt, leading: 1.45em)[عبد الله محمد فياض
+#place(top + right, dx: 5cm, dy: 97cm, align(right, text(size: 16pt)[عبد الله محمد فياض
 عبد المؤمن عصام محمود
 أحمد قيس صبري
 علي عمر حسن]))
