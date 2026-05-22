@@ -40,7 +40,7 @@
 #place(top + right, dx: 5cm, dy: 29cm, align(right, text(size: 18pt, weight: "bold", fill: navy)[الملخص]))
 
 #place(top + left, dx: 5cm, dy: 32cm, box(width: 34.8cm)[#text(size: 13.4pt, leading: 1.22em)[Traditional drug discovery is heavily constrained by high costs, long durations, and high attrition rates. This thesis evaluates the transformative integration of Artificial Intelligence (AI) and Machine Learning (ML) across the pharmaceutical pipeline. By optimizing target identification, virtual screening, de novo molecular design, and ADMET toxicity profiling, AI significantly compresses the iterative design-make-test cycles, dramatically lowering early-stage bottlenecks and predicting safety liabilities before costly laboratory synthesis.]])
-#place(top + right, dx: 5cm, dy: 32cm, align(right, box(width: 34.8cm)[#text(size: 14pt, leading: 1.3em)[تواجه عملية اكتشاف الأدوية التقليدية قيوداً شديدة متمثلة في التكاليف الباهظة، الفترات الزمنية الممتدة، ومعدلات الفشل العالية. يستعرض هذا البحث الدور المحوري للذكاء الاصطناعي والتعلم الآلي في التغلب على هذه العقبات عبر تسريع وتيرة تحديد الأهداف البيولوجية والتحقق من صحتها، الفرز الافتراضي المركب، والتصميم التوليدي للمركبات من الصفر (De Novo Design)، بالإضافة إلى التنبؤ الدقيق بالسمية وحركية الدواء (ADMET) قبل البدء بالتصنيع المختبري، مما يقلل بشكل جذري من الهدر الاقتصادي والزمني.])))
+#place(top + right, dx: 5cm, dy: 32cm, align(right, box(width: 34.8cm)[#text(size: 14pt, leading: 1.3em)[تواجه عملية اكتشاف الأدوية التقليدية قيوداً شديدة متمثلة في التكاليف الباهظة، الفترات الزمنية الممتدة، ومعدلات الفشل العالية. يستعرض هذا البحث الدور المحوري للذكاء الاصطناعي والتعلم الآلي في التغلب على هذه العقبات عبر تسريع وتيرة تحديد الأهداف البيولوجية والتحقق من صحتها، الفرز الافتراضي المركب، والتصميم التوليدي للمركبات من الصفر (De Novo Design)، بالإضافة إلى التنبؤ الدقيق بالسمية وحركية الدواء (ADMET) قبل البدء بالتصنيع المختبري، مما يقلل بشكل جذري من الهدر الاقتصادي والزمني.]]))
 
 #place(top + left, dx: 5cm, dy: 57cm, text(size: 18pt, weight: "bold", fill: navy)[CONCLUSION & RECOMMENDATIONS])
 #place(top + right, dx: 5cm, dy: 57cm, align(right, text(size: 18pt, weight: "bold", fill: navy)[الخلاصة والتوصيات]))
@@ -50,7 +50,7 @@
 • AI-generated hypotheses fundamentally rely on rigorous prospective experimental validation and curated data to guarantee clinical success.]])
 #place(top + right, dx: 5cm, dy: 60cm, align(right, box(width: 34.8cm)[#text(size: 14pt, leading: 1.36em)[• يعمل الذكاء الاصطناعي كأداة تعاونية وتكاملية فائقة الذكاء لتعزيز الإبداع البشري وليس بديلاً عن خبرة العلماء.
 • النماذج التوليدية المتطورة وشبكات القرار تختصر زمن تصميم الجزيئات الكيميائية بنسب غير مسبوقة.
-• يتطلب الاعتماد النهائي على فرضيات الذكاء الاصطناعي تحققاً مختبرياً صارماً (Experimental Validation) وبيانات عالية الجودة لضمان الأمان السريري.])))
+• يتطلب الاعتماد النهائي على فرضيات الذكاء الاصطناعي تحققاً مختبرياً صارماً (Experimental Validation) وبيانات عالية الجودة لضمان الأمان السريري.]]))
 
 #place(top + left, dx: 5cm, dy: 83cm, text(size: 18pt, weight: "bold", fill: navy)[Supervised by:])
 #place(top + right, dx: 5cm, dy: 83cm, align(right, text(size: 18pt, weight: "bold", fill: navy)[إشراف]))
