@@ -1,5 +1,5 @@
 #set page(width: 84.1cm, height: 118.9cm, margin: 2cm)
-#set text(font: "Noto Sans", size: 22pt, fill: cmyk(0%,0%,0%,100%))
+#set text(font: ("Liberation Sans", "DejaVu Sans", "Arial", "Noto Sans Arabic"), size: 22pt, fill: cmyk(0%,0%,0%,100%))
 
 #let c_bg = cmyk(3%, 2%, 0%, 0%)
 #let c_primary = cmyk(100%, 55%, 0%, 25%)

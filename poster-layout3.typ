@@ -1,12 +1,13 @@
-#import "@preview/cetz:0.3.2": canvas, circle
 #set page(width: 84.1cm, height: 118.9cm, margin: 2cm)
-#set text(font: "Noto Sans", size: 19pt, fill: cmyk(0%,0%,0%,100%))
+#set text(font: ("Liberation Sans", "DejaVu Sans", "Arial", "Noto Sans Arabic"), size: 19pt, fill: cmyk(0%,0%,0%,100%))
 #let ink = cmyk(90%, 60%, 10%, 25%)
 #let light = cmyk(2%, 1%, 0%, 0%)
 #rect(width:100%, height:100%, fill:light)
-#canvas(length:1cm, {
-  for i in range(0, 20) { circle((i*4, i*5), radius:0.6, fill: none, stroke:(paint:cmyk(20%,10%,0%,10%), thickness:0.2pt)) }
-})
+#place(top + left, dx: 4cm, dy: 24cm, rect(width: 28cm, height: 0.18cm, fill: cmyk(20%,10%,0%,8%)))
+#place(top + left, dx: 10cm, dy: 38cm, rect(width: 32cm, height: 0.18cm, fill: cmyk(20%,10%,0%,8%)))
+#place(top + left, dx: 6cm, dy: 52cm, rect(width: 30cm, height: 0.18cm, fill: cmyk(20%,10%,0%,8%)))
+#place(top + right, dx: 6cm, dy: 66cm, rect(width: 30cm, height: 0.18cm, fill: cmyk(20%,10%,0%,8%)))
+#place(top + right, dx: 10cm, dy: 80cm, rect(width: 32cm, height: 0.18cm, fill: cmyk(20%,10%,0%,8%)))
 #stack(dir:ttb,
   rect(width:100%, height:12cm, fill:ink),
   block(inset:1cm)[
