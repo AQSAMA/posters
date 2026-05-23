@@ -10,22 +10,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Typst
         uses: typst-community/setup-typst@v3
+        with:
+          typst-version: latest
 
       - name: Compile Poster Layout 1
-        run: typst compile posters/poster-layout1.typ posters/poster-layout1.pdf
+        run: cd posters && typst compile poster-layout1.typ poster-layout1.pdf
 
       - name: Compile Poster Layout 2
-        run: typst compile posters/poster-layout2.typ posters/poster-layout2.pdf
+        run: cd posters && typst compile poster-layout2.typ poster-layout2.pdf
 
       - name: Compile Poster Layout 3
-        run: typst compile posters/poster-layout3.typ posters/poster-layout3.pdf
+        run: cd posters && typst compile poster-layout3.typ poster-layout3.pdf
 
       - name: Compile Poster Layout 4
-        run: typst compile posters/poster-layout4.typ posters/poster-layout4.pdf
+        run: cd posters && typst compile poster-layout4.typ poster-layout4.pdf
 
       - name: Upload PDF Artifacts
         uses: actions/upload-artifact@v4
