@@ -26,11 +26,7 @@
 #place(top + left, dx: 0cm, dy: header-rule-y, rect(width: 100%, height: 0.25cm, fill: accent))
 
 #let logo-size = 10cm
-#let logo-box = if file.exists("logo.png") {
-  image("logo.png", width: logo-size, height: logo-size, fit: "contain")
-} else {
-  rect(width: logo-size, height: logo-size, fill: accent)
-}
+#let logo-box = image("logo.png", width: logo-size, height: logo-size, fit: "contain")
 
 #place(top + right, dx: side, dy: 3cm, logo-box)
 
