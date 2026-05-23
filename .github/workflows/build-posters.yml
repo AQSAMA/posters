@@ -1,0 +1,29 @@
+name: Build Typst Posters
+
+on:
+  pull_request:
+  push:
+    branches: ["**"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v3
+      - name: Compile posters
+        run: |
+          typst compile poster-layout1.typ poster-layout1.pdf
+          typst compile poster-layout2.typ poster-layout2.pdf
+          typst compile poster-layout3.typ poster-layout3.pdf
+          typst compile poster-layout4.typ poster-layout4.pdf
+      - name: Upload PDFs
+        uses: actions/upload-artifact@v4
+        with:
+          name: posters-pdf
+          path: |
+            poster-layout1.pdf
+            poster-layout2.pdf
+            poster-layout3.pdf
+            poster-layout4.pdf
